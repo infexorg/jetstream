@@ -147,8 +147,8 @@ class Frame(ttk.Frame):
             leg1, leg2, leg1r, leg2r = calc.pathcalc_om(om1, om2, om3, omd)
 
             self.var_leg1.set(str(leg1))
-            self.var_leg1r.set(str(leg2))
-            self.var_leg2.set(str(leg1r))
+            self.var_leg1r.set(str(leg1r))
+            self.var_leg2.set(str(leg2))
             self.var_leg2r.set(str(leg2r))
 
     class TargetManualPointtopoint(ttk.LabelFrame):

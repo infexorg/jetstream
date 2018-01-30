@@ -1,0 +1,52 @@
+{
+  "stanton": {
+    "2a_cellin": {
+      "wreck": {
+        "caterpillar": {
+          "notes": "",
+          "distances": {
+            "om1": 470.7,
+            "om2": 292.7,
+            "om3": 322.7,
+            "om4": 519.4,
+            "om5": 647.2,
+            "om6": 632.8
+          }
+        },
+        "constellation_aquila": {
+
+        },
+        "cutlass_black": {
+
+        },
+        "starfarer": {
+
+        }
+      },
+      "facility_mining": {
+
+      },
+      "facility_farming": {
+
+      },
+      "facility_research": {
+
+      },
+      "emergency_shelter": {
+
+      },
+      "orbital_marker": {
+
+      }
+    },
+    "2b_daymar": {
+
+    },
+    "2c_yela": {
+
+    }
+  },
+  "nyx": {
+
+  }
+}
