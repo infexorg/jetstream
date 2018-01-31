@@ -31,6 +31,3 @@ def pathcalc_om(om1, om2, om3, omd):
     leg2r = round(leg2r, 1)
 
     return leg1, leg2, leg1r, leg2r
-
-
-print(pathcalc_om(405.7, 422.2, 438.1, 730.4))
