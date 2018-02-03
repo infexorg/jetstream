@@ -5,7 +5,7 @@
     <title>INFEX | Jetstream</title>
     <meta name="description" content="Star Citizen navigational suite"/>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Orbitron" type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Orbitron|Source+Code+Pro" type="text/css"/>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 
@@ -33,26 +33,18 @@
     </script>
 </head>
 <body>
-<section>
-    <label>om1:</label>
-    <input type="text" id="om1" class="inputNumber"/><br>
-    <label>om2:</label>
-    <input type="text" id="om2" class="inputNumber"/><br>
-    <label>om3:</label>
-    <input type="text" id="om3" class="inputNumber"/><br>
-    <label>omd:</label>
-    <input type="text" id="omd" class="inputNumber"/><br>
+<section class="om-calc">
+    <label>om1:</label><br><input type="text" id="om1" class="inputNumber" onkeydown="calcOM()"/><br>
+    <label>om2:</label><br><input type="text" id="om2" class="inputNumber" onkeydown="calcOM()"/><br>
+    <label>om3:</label><br><input type="text" id="om3" class="inputNumber" onkeydown="calcOM()"/><br>
+    <label>omd:</label><br><input type="text" id="omd" class="inputNumber" onkeydown="calcOM()"/><br>
 
     <input type="button" onclick="calcOM()" value="Calculate" class="inputButton"/><br>
 
-    <label>leg1:</label>
-    <input type="text" id="leg1" class="inputNumber"/><br>
-    <label>leg1r:</label>
-    <input type="text" id="leg1r" class="inputNumber"/><br>
-    <label>leg2:</label>
-    <input type="text" id="leg2" class="inputNumber"/><br>
-    <label>leg2r:</label>
-    <input type="text" id="leg2r" class="inputNumber"/><br>
+    <label>leg1:</label><br><input type="text" id="leg1" class="inputNumber"/><br>
+    <label>leg1r:</label><br><input type="text" id="leg1r" class="inputNumber"/><br>
+    <label>leg2:</label><br><input type="text" id="leg2" class="inputNumber"/><br>
+    <label>leg2r:</label><br><input type="text" id="leg2r" class="inputNumber"/><br>
 </section>
 </body>
 </html>

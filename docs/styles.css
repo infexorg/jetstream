@@ -1,40 +1,31 @@
 body {
-    background: #ffffff;
-    padding: 10em;
+    background: #1a1a1a;
+    padding: 2em;
 }
 
 label {
     /*font*/
-    font-family: "Open Sans", sans-serif;
+    font-family: "Orbitron", sans-serif;
     font-size: 1em;
-    color: #608040;
+    color: #66aacc;
 
     /*position*/
     text-align: left;
     line-height: 1.5;
     margin-bottom: 1em;
+}
+
+.om-calc {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 500px;
 }
 
 .inputNumber {
     /*font*/
     font-family: "Source Code Pro", monospace;
-    font-size: 1em;
-    color: #404040;
-
-    /*position*/
-    text-align: left;
-    line-height: 1.5;
-    margin-bottom: 1em;
-
-    /*element*/
-    background: #c1ff82;
-    border-radius: 4px;
-    border: 1px #608040 solid;
-}
-
-.inputButton {
-    /*font*/
-    font-family: "Open Sans", sans-serif;
     font-size: 1em;
     color: #ffffff;
 
@@ -44,7 +35,36 @@ label {
     margin-bottom: 1em;
 
     /*element*/
-    background: #608040;
-    border-radius: 4px;
-    border-width: 0;
+    background: rgba(102, 170, 204, 0.2);
+    border-radius: 0;
+    border: 1px #66aacc solid;
+}
+.inputNumber:focus {
+    background: rgba(102, 170, 204, 0.4);
+    transition: all 0.1s;
+}
+
+.inputButton {
+    /*font*/
+    font-family: "Orbitron", sans-serif;
+    font-size: 1em;
+    color: #66aacc;
+
+    /*position*/
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 1em;
+
+    /*element*/
+    background: rgba(102, 170, 204, 0.2);
+    border-radius: 0;
+    border: 1px #66aacc solid;
+}
+.inputButton:hover {
+    background: rgba(102, 170, 204, 0.4);
+    transition: all 0.25s;
+}
+.inputButton:active {
+    background: rgba(102, 170, 204, 0.1);
+    transition: all 0.1s;
 }
